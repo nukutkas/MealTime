@@ -69,15 +69,12 @@
 		3585ECCF23AB6B7200F49C82 /* MealTime */ = {
 			isa = PBXGroup;
 			children = (
-				3585ECD023AB6B7200F49C82 /* AppDelegate.swift */,
-				3585ECD223AB6B7200F49C82 /* SceneDelegate.swift */,
 				E5D1957B2518C83800E7B8E7 /* CoreDataStack.swift */,
-				3585ECD423AB6B7200F49C82 /* ViewController.swift */,
-				3585ECD623AB6B7200F49C82 /* Main.storyboard */,
-				3585ECD923AB6B7400F49C82 /* Assets.xcassets */,
-				3585ECDB23AB6B7400F49C82 /* LaunchScreen.storyboard */,
-				3585ECDE23AB6B7400F49C82 /* Info.plist */,
 				E5D1957D2518CA0900E7B8E7 /* MealTime.xcdatamodeld */,
+				E5DE1C74263C95C1006721A3 /* ViewControllers */,
+				E5DE1C73263C9587006721A3 /* Storyboards */,
+				E5DE1C71263C9565006721A3 /* Supporting files */,
+				E5DE1C76263C95DC006721A3 /* Sources */,
 			);
 			path = MealTime;
 			sourceTree = "<group>";
@@ -91,6 +88,41 @@
 				E5D195822518CC6600E7B8E7 /* User+CoreDataClass.swift */,
 			);
 			path = "CoreData Entities";
+			sourceTree = "<group>";
+		};
+		E5DE1C71263C9565006721A3 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3585ECD023AB6B7200F49C82 /* AppDelegate.swift */,
+				3585ECD223AB6B7200F49C82 /* SceneDelegate.swift */,
+				3585ECDE23AB6B7400F49C82 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5DE1C73263C9587006721A3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3585ECD623AB6B7200F49C82 /* Main.storyboard */,
+				3585ECDB23AB6B7400F49C82 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5DE1C74263C95C1006721A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3585ECD423AB6B7200F49C82 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5DE1C76263C95DC006721A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3585ECD923AB6B7400F49C82 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +152,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Ivan Akulov";
 				TargetAttributes = {
 					3585ECCC23AB6B7200F49C82 = {
@@ -224,6 +256,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -284,6 +317,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -318,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H969S6YFE;
-				INFOPLIST_FILE = MealTime/Info.plist;
+				INFOPLIST_FILE = "MealTime/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H969S6YFE;
-				INFOPLIST_FILE = MealTime/Info.plist;
+				INFOPLIST_FILE = "MealTime/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
