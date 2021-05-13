@@ -13,6 +13,8 @@
 		3585ECD823AB6B7200F49C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3585ECD623AB6B7200F49C82 /* Main.storyboard */; };
 		3585ECDA23AB6B7400F49C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3585ECD923AB6B7400F49C82 /* Assets.xcassets */; };
 		3585ECDD23AB6B7400F49C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3585ECDB23AB6B7400F49C82 /* LaunchScreen.storyboard */; };
+		E5CD351E264D2264000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD351C264D2264000E9BF6 /* Screenshot01.png */; };
+		E5CD351F264D2264000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD351D264D2264000E9BF6 /* Screenshot02.png */; };
 		E5D1957C2518C83800E7B8E7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1957B2518C83800E7B8E7 /* CoreDataStack.swift */; };
 		E5D1957F2518CA0900E7B8E7 /* MealTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5D1957D2518CA0900E7B8E7 /* MealTime.xcdatamodeld */; };
 		E5D195842518CC6600E7B8E7 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D195802518CC6600E7B8E7 /* Meal+CoreDataClass.swift */; };
@@ -30,6 +32,8 @@
 		3585ECD923AB6B7400F49C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3585ECDC23AB6B7400F49C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3585ECDE23AB6B7400F49C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5CD351C264D2264000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5CD351D264D2264000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E5D1957B2518C83800E7B8E7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		E5D1957E2518CA0900E7B8E7 /* MealTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealTime.xcdatamodel; sourceTree = "<group>"; };
 		E5D195802518CC6600E7B8E7 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		3585ECC423AB6B7200F49C82 = {
 			isa = PBXGroup;
 			children = (
+				E5CD351B264D1FFD000E9BF6 /* Screenshots */,
 				E5D195882518CCCA00E7B8E7 /* CoreData Entities */,
 				3585ECCF23AB6B7200F49C82 /* MealTime */,
 				3585ECCE23AB6B7200F49C82 /* Products */,
@@ -77,6 +82,15 @@
 				E5DE1C76263C95DC006721A3 /* Sources */,
 			);
 			path = MealTime;
+			sourceTree = "<group>";
+		};
+		E5CD351B264D1FFD000E9BF6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E5CD351C264D2264000E9BF6 /* Screenshot01.png */,
+				E5CD351D264D2264000E9BF6 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		E5D195882518CCCA00E7B8E7 /* CoreData Entities */ = {
@@ -185,6 +199,8 @@
 			files = (
 				3585ECDD23AB6B7400F49C82 /* LaunchScreen.storyboard in Resources */,
 				3585ECDA23AB6B7400F49C82 /* Assets.xcassets in Resources */,
+				E5CD351E264D2264000E9BF6 /* Screenshot01.png in Resources */,
+				E5CD351F264D2264000E9BF6 /* Screenshot02.png in Resources */,
 				3585ECD823AB6B7200F49C82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
