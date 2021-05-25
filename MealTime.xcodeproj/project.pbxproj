@@ -58,9 +58,9 @@
 		3585ECC423AB6B7200F49C82 = {
 			isa = PBXGroup;
 			children = (
-				E5CD351B264D1FFD000E9BF6 /* Screenshots */,
 				E5D195882518CCCA00E7B8E7 /* CoreData Entities */,
 				3585ECCF23AB6B7200F49C82 /* MealTime */,
+				E5CD351B264D1FFD000E9BF6 /* Screenshots */,
 				E5CD3521264D23FA000E9BF6 /* README.md */,
 				3585ECCE23AB6B7200F49C82 /* Products */,
 			);
@@ -170,7 +170,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1240;
-				ORGANIZATIONNAME = "Ivan Akulov";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					3585ECCC23AB6B7200F49C82 = {
 						CreatedOnToolsVersion = 11.2.1;
