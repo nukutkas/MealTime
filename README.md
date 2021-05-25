@@ -1,6 +1,6 @@
 # MealTime
 
-Save your mealtime in the app for testing CoreData.
+Save your mealtime in the app for practice CoreData.
 
 # Installation
 
